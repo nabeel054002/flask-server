@@ -13,7 +13,14 @@ def poll_frame():
     html_content = '''
     <!DOCTYPE html>
     <html>
-    <head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><meta property="og:title" content="Frame"><meta property="fc:frame" content="vNext"><meta property="fc:frame:button:1" content="Choose Their Fate"><meta property="og:image" content="undefined/start.png"><meta property="fc:frame:image" content="undefined/start.png"><meta property="fc:frame:post_url" content="undefined/api/post?slide=1"><meta name="next-head-count" content="8"><noscript data-n-css=""></noscript><script defer="" crossorigin="" nomodule="" src="/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script><script src="/_next/static/chunks/webpack-ee7e63bc15b31913.js" defer="" crossorigin=""></script><script src="/_next/static/chunks/framework-5429a50ba5373c56.js" defer="" crossorigin=""></script><script src="/_next/static/chunks/main-930135e47dff83e9.js" defer="" crossorigin=""></script><script src="/_next/static/chunks/pages/_app-b8840b4f8f2fad1f.js" defer="" crossorigin=""></script><script src="/_next/static/chunks/pages/index-016a53a5b212a55f.js" defer="" crossorigin=""></script><script src="/_next/static/51hnj2FBt_qAUyFWtCs7G/_buildManifest.js" defer="" crossorigin=""></script><script src="/_next/static/51hnj2FBt_qAUyFWtCs7G/_ssgManifest.js" defer="" crossorigin=""></script></head>
+    <head>
+        <meta property="fc:frame" content="vNext" />
+        <meta property="fc:frame:image" content="http://...image-question.png" />
+        <meta property="fc:frame:button:1" content="Green" />
+        <meta property="fc:frame:button:2" content="Purple" />
+        <meta property="fc:frame:button:3" content="Red" />
+        <meta property="fc:frame:button:4" content="Blue" />
+    </head>
     </html>
     '''
     return html_content
