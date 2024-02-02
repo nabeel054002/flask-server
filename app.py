@@ -20,6 +20,7 @@ def poll_frame():
         <meta property="fc:frame:button:2" content="Purple" />
         <meta property="fc:frame:button:3" content="Red" />
         <meta property="fc:frame:button:4" content="Blue" />
+        <meta property="og:image" content="http://example.com/poll_image.png"/>
     </head>
     </html>
     '''
