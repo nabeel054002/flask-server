@@ -15,12 +15,12 @@ def poll_frame():
     <html>
     <head>
         <meta property="fc:frame" content="vNext" />
-        <meta property="fc:frame:image" content="http://example.com/poll_image.png" />
+        <meta property="fc:frame:image" content="https://drive.google.com/file/d/1zewPIpVfgQioCwPZdyzsWJPjsJtWn5hP/view?usp=sharing" />
         <meta property="fc:frame:button:1" content="Green" />
         <meta property="fc:frame:button:2" content="Purple" />
         <meta property="fc:frame:button:3" content="Red" />
         <meta property="fc:frame:button:4" content="Blue" />
-        <meta property="og:image" content="http://example.com/poll_image.png"/>
+        <meta property="og:image" content="https://drive.google.com/file/d/1rZRQyrAm2DgSq88aYCreHO4kADtTvzfU/view?usp=sharing"/>
     </head>
     </html>
     '''
