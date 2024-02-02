@@ -20,9 +20,6 @@ def poll_frame():
         <meta property="fc:frame:button:2" content="Option 2" />
         <!-- Add more buttons as needed -->
     </head>
-    <body>
-        Poll Frame Content
-    </body>
     </html>
     '''
     return html_content
@@ -50,9 +47,6 @@ def process_poll():
             <meta property="fc:frame:image" content="{}" />
             <!-- Updated buttons/meta tags based on new poll results -->
         </head>
-        <body>
-            Updated Poll Frame Content
-        </body>
         </html>
         '''.format(new_image_url)
         return updated_html_content
