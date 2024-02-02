@@ -15,7 +15,7 @@ def poll_frame():
     <html>
     <head>
         <meta property="fc:frame" content="vNext" />
-        <meta property="fc:frame:image" content="http://...image-question.png" />
+        <meta property="fc:frame:image" content="http://example.com/poll_image.png" />
         <meta property="fc:frame:button:1" content="Green" />
         <meta property="fc:frame:button:2" content="Purple" />
         <meta property="fc:frame:button:3" content="Red" />
